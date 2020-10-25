@@ -12,7 +12,7 @@ public class AddressBookContacts {
 	  
 	  public AddressBookContacts()
 	  {
-		  
+		  /* ***** */
 	  }
 	  
 	  public AddressBookContacts(String firstName,String lastName,String address,
@@ -120,7 +120,7 @@ public class AddressBookContacts {
 	  }
 	  
 	  public String toString() {
-		  return "First name : "+firstName+" Last name : "+lastName;
+		  return "First name : "+firstName+" Last name : "+lastName+" City : "+city+" State : "+state+" Zip : " +zip;
 	  }
 	  
 	  
